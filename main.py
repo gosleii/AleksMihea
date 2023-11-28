@@ -36,7 +36,7 @@ def main(message):
 @bot.message_handler(commands=['exit'])
 
 def main(message):
-    bot.send_message(message.chat.id, 'Война окончена! Русы всегда побеждают!')
+    bot.send_message(message.chat.id, 'Война окончена! Русы всегда побеждают!!!')
 
 
 
